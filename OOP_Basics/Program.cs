@@ -18,6 +18,7 @@ namespace OOP_Basics
             Console.WriteLine(T1.GetArea(T1.side) + " cm");                                 // Output info
             Console.Write("En triangel med {0} cm långa sidor har omkretsen: ", T2.side);
             Console.WriteLine(T2.GetCircum(T2.side) + " cm");
+            Console.ReadKey();                                                              // Hold screen
         }
     }
     public class Circle                                                                     // New class
